@@ -1,0 +1,57 @@
+<html>
+	<head> 
+		<style>
+		h2{
+		font-family: Courier New;
+		text-align:center;
+		color: #FFFFFF;
+		}
+		
+		body{
+		background : #000000;
+		width: 100%;
+		font-family: Courier New;
+		color: #FFFFFF;
+		}
+		
+		table{
+		border-top-style: dotted;
+		border-right-style: dotted;
+		border-bottom-style: dotted;
+		border-left-style: dotted;
+		border-color: #A9A9A9;
+		border-width: 4px;
+		text-align: center;
+		width: 800px;
+		background : #FFFFFF;
+		margin: 0 auto;
+		font-family: Courier New;
+		font-size: 20px;
+		color: #000000;
+		}
+	
+		table th{
+		background-color: #A9A9A9;
+		}
+		
+		table td, table th {
+		border: 1px solid black;
+		}
+		
+		table tr td:first-child{
+		background-color: #E6E6FA;
+		}
+		</style>
+		<title>Digital I/O Result</title>
+	</head>
+<body><div>Device : EExplorer SN:210151396751</div><div>Computer's Name : ExcoSia-PC</div><div>Date : 2014/8/11</div><div>Time : 10:56 AM</div>
+<div><h2>"Test file for Explorer" </h2></div>
+<table><tr><th>Round</th><th>Output</th> <th>Input recieved/expected</th></tr>
+<tr><td rowspan ="2">1</td><td rowspan ="2">0000</td><td>0000</td></tr><tr><td>0000</td></tr>
+<tr><td rowspan ="2">2</td><td rowspan ="2">0000 0000</td><td>0000 0000</td></tr><tr><td>0000 0000</td></tr>
+<tr><td rowspan ="2">3</td><td rowspan ="2">1111 0000</td><td>0000 <mark>0</mark><mark>0</mark><mark>0</mark><mark>0</mark></td></tr><tr><td>---- <mark>1</mark><mark>1</mark><mark>1</mark><mark>1</mark></td></tr>
+<tr><td rowspan ="2">4</td><td rowspan ="2">1111 1111 1111 1111</td><td>0000 0000 0000 0000</td></tr><tr><td>0000 0000 0000 0000</td></tr>
+<tr><td rowspan ="2">5</td><td rowspan ="2">0000 0000 1111 1111</td><td>0000 0000 <mark>0</mark>000 0000</td></tr><tr><td>---- ---- <mark>1</mark>0-- ----</td></tr>
+</table>
+</body>
+</html>

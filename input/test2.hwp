@@ -1,0 +1,13 @@
+log "Test file for Explorer"
+stimmap dbb2_04 0000|0000
+stimmap dbb2_08 00000000|00000000
+stimmap dbb2_16 0000000000000000|0000000000000000
+stimmap dbb2_16 1111111111111111|--------10------
+stimmap dbb2_16 1111000000000000|--------11------
+
+log "Test file for Explorer 2"
+stimmap dbb2_04 1100|1111
+stimmap dbb2_08 00001111|00000000
+stimmap dbb2_16 0011111111111110|0000000000000000
+stimmap dbb2_16 1111111111111111|--------00------
+stimmap dbb2_16 1111111111111111|--------00------

@@ -1,0 +1,31 @@
+"Test file for Explorer"
+
+1.
+Set Output : 0000
+Real Input : 0000
+Expected Input : 0000
+Error bits :
+
+2.
+Set Output : 0000 0000
+Real Input : 0000 0000
+Expected Input : 0000 0000
+Error bits :
+
+3.
+Set Output : 1111 0000
+Real Input : 0000 0000
+Expected Input : ---- 1111
+Error bits : 0,1,2,3,4
+
+4.
+Set Output : 1111 1111 1111 1111
+Real Input : 0000 0000 0000 0000
+Expected Input : 0000 0000 0000 0000
+Error bits :
+
+5.
+Set Output : 0000 0000 1111 1111
+Real Input : 0000 0000 0000 0000
+Expected Input : ---- ---- 10-- ----
+Error bits : 7
